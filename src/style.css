@@ -238,15 +238,15 @@ Cocktail
     margin-bottom: 2rem;
     box-shadow: var(--lightShadow);
     transition: var(--mainTransition);
-    display: inline-grid;
-    margin-left:20px;
-    grid-template-rows: auto 1fr;
+    display:inline-block;
+    margin-left:5px;
+    margin-right: 5px;
+    /* grid-template-rows: auto 1fr; */
     border-radius: var(--mainBorderRadius);
   }
   @media only screen and (max-width: 600px) {
     .cocktail {
     display: grid;
-    grid-template-rows: auto 1fr;
     }
   }
   .cocktail:hover {
